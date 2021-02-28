@@ -19,6 +19,22 @@
 		"min": "0.0",
 		"max": "255.255"
 	},
+	"associations": {
+		"1": {
+			"label": "Lifeline",
+			"maxNodes": 5,
+			"isLifeline": true
+		},
+		"2": {
+			"label": "Local Load",
+			"maxNodes": 5
+		},
+		"3": {
+			"label": "Double Tap",
+			"maxNodes": 5,
+			"isLifeline": true
+		}
+	},	
 	"paramInformation": {
 		"3": {
 			"label": "Night Light",
@@ -68,5 +84,8 @@
 				}
 			]
 		}
+	},
+"compat": {
+	"treatBasicSetAsEvent": true
 	}
 }
