@@ -82,6 +82,26 @@
 					"label": "Yes",
 					"value": 1
 				}
+		"29": {
+			"label": "Load Sense",
+			"description": "Automatically sense if connected device is being turned on and provide power to connected device.",
+			"valueSize": 1,
+			"minValue": 0,
+			"maxValue": 255,
+			"defaultValue": 0,
+			"unsigned": true,
+			"readOnly": false,
+			"writeOnly": false,
+			"allowManualEntry": false,
+			"options": [
+				{
+					"label": "No",
+					"value": 0
+				},
+				{
+					"label": "Yes",
+					"value": 1
+				}				
 			]
 		}
 	},
